@@ -1,7 +1,8 @@
-<body><div class="container">
+<html>
+  <body><div class="container" style="background-color: black;">
   <h3>test</h3>
 
-<div class="jumbotron" style="background-color:lawngreen">
+<div class="jumbotron" style="background-color: lawngreen">
   <h1>{{title}}</h1>
   <h3>{{subtitle}}</h3>
   
@@ -24,14 +25,15 @@
     </div>
   
 	</table>
-	<b *ngIf="allTasksComplete()">You may now die in peace!</b>
+	<b *ngIf="allTasksComplete()">You may now party on in peace!</b>
 	<input type="text" class="bigText" #newTask (keyup.enter)="addTask(newTask.value); newTask.value=''" placeholder="Add to the bucket" />
 	<br />
-  <button class="bigButton" (click)="addTask(newTask.value); newTask.value=''">ADD TO BUCKET</button>
+  <button class="bigButton" (click)="addTask(newTask.value); newTask.value=''">ADD TO BUCKET IF YOU DARE!</button>
 </div>
 
 </div>
 </body>
+</html>
 
 
 
