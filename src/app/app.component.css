@@ -1,0 +1,68 @@
+.boxed {
+    background-color: black;
+    border: solid lawngreen;
+    
+}
+
+.container{
+    background-image: url(https://i.pinimg.com/originals/8a/51/20/8a5120d4f87f5b9b2a70d6b76961dfec.jpg);
+    background-color: black;
+    max-height: fit-content;
+}
+
+table {
+    width: 100%;
+}
+
+td.task {
+    width: 100%;
+}
+
+li {
+    width: 100%;
+}
+
+h1 {
+    line-height: 25px;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 99%;
+    border-style: none;
+}
+
+input.bigText {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+   
+}
+
+input.completed {
+    text-decoration: line-through;
+}
+
+button.complete {
+    background-color: transparent;
+    border-color: lawngreen;
+    border-radius: 5px;
+    border-style: solid;
+    color: whitesmoke;
+}
+
+button.remove {
+    background-color: whitesmoke;
+    border: none;
+}
+
+button.bigButton {
+    color: red;
+    background-color: lawngreen;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
