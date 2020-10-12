@@ -37,7 +37,7 @@ input {
     border-style: none;
 }
 
-input.bigText {
+input.text1 {
     border-radius: 5px;
     border-style: solid;
     border-color: black;
@@ -61,7 +61,7 @@ button.remove {
     border: none;
 }
 
-button.bigButton {
+button.Add {
     color: red;
     background-color: lawngreen;
     border-color: black;

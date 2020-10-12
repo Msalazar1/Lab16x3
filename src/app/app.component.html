@@ -7,7 +7,7 @@
   <h3>{{subtitle}}</h3>
   
   
-  <input type="text" class="bigText" #filter (keyup)="assignFilter(filter.value)" placeholder="Search a Task" />
+  <input type="text" class="text1" #filter (keyup)="assignFilter(filter.value)" placeholder="Search a Task" />
 	<table class = "boxed">
 		<div *ngFor="let item of filterTasks(); index as index">
 				<tr>
@@ -26,9 +26,9 @@
   
 	</table>
 	<b *ngIf="allTasksComplete()">You may now party on in peace!</b>
-	<input type="text" class="bigText" #newTask (keyup.enter)="addTask(newTask.value); newTask.value=''" placeholder="Add to the bucket" />
+	<input type="text" class="text1" #newTask (keyup.enter)="addTask(newTask.value); newTask.value=''" placeholder="Add to the bucket" />
 	<br />
-  <button class="bigButton" (click)="addTask(newTask.value); newTask.value=''">ADD TO BUCKET IF YOU DARE!</button>
+  <button class="Add" (click)="addTask(newTask.value); newTask.value=''">ADD TO BUCKET IF YOU DARE!</button>
 </div>
 
 </div>
